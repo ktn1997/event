@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' content="KTN Main page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행사 일정</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+      body{margin-left:0;margin-right:0;padding:0;background-color:#F5F5F5;}
+      #logo {text-align:center;}
+
+      .container {display:flex; flex-direction:row;height:20%;background-color:#2E2E2E;}
+      .item {color: white; text-align:center;flex-grow:1;font-family: 'NEXON Lv2 Gothic';font-weight:bold;padding:0.5%;}
+      .item>a {text-decoration:none; color:inherit;font-size:0.8rem;}
+
+      @font-face {font-family: 'NEXON Lv2 Gothic Bold';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff') format('woff');font-weight:normal;font-style:normal;}
+
+      @font-face {font-family: 'NEXON Lv2 Gothic';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');font-weight: normal;font-style: normal;}
+
+      #outline {border-style:solid;border-width:0.5px;border-color:#2E2E2E;margin:3%;padding:2%;width:94%;}
+
+      #plan {width:90%;table-layout:fixed;border-top:solid;border-bottom:solid;border-spacing:10px;text-align:center;margin:auto;}
+
+      .month {text-align:center;margin-top:2%;font-family: 'Noto Sans KR';font-size:10%;color:#999999;}
+
+      .달 {text-align:center;margin-bottom:2%;font-family: 'Noto Sans KR';color:#2E2E2E;}
+
+      .work {text-align:left;font-family: 'Noto Sans KR';color:#2E2E2E;font-size:0.9rem;margin-top:4%;}
+
+      .detail {text-align:left;font-family: 'Noto Sans KR';color:#2E2E2E;font-size:10%;}
+
+      .month-back {width:50%;background-color:#DEDEDE;}
+
+      .plan_img {width:30px;margin:5%;}
+
+      .title_text{font-family: 'NEXON Lv2 Gothic Bold';font-size:120%;color:#2E2E2E;font-weight:lighter;margin-bottom:3%;}
+
+      .container3 {display:flex;flex-direction:row;background-color:#2E2E2E;padding:0.5%;}
+      .item3{font-family: 'NEXON Lv2 Gothic';text-align:center;color:white;flex-grow:1;font-size:0.5rem;margin-top:0.5%;margin-bottom:0.5%;margin-right:5%;}
+      .item3 > a{text-decoration:none; color:inherit;}
+      #item3-1 {margin-left:25%}
+      #item3-4 {margin-right:25%}
+
+      footer{margin-top:15px;}
+      #footer_text{margin:1%;font-color:#2E2E2E;font-family: 'Noto Sans KR';text-align:center;font-size:0.001rem;line-height:130%;font-weight:300;}
+
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div id='logo'><a href='main_page.html'><img src="KTN_logo.png" width=8%></a></div>
+    </header>
+    <menus>
+      <div class='container'>
+        <div class = 'item'><a href='about.html'>ABOUT</a></div>
+        <div class = 'item'><a href='production.html'>PRODUCTION</a></div>
+        <div class = 'item'><a href='event.html'>EVENT</a></div>
+        <div class = 'item'><a href='contact.html'>CONTACT</a></div>
+        <div class = 'item'><a href='http://intranet.ktn.ac.kr'>INTRANET</a></div>
+      </div>
+    </menus>
+
+    <contents>
+      <table id='outline'>
+      <tr><td>
+        <div class='title_text'>행사 일정</div>
+        <table id='plan' rules=all>
+          <tr>
+            <td class='month-back'>
+              <div class='month'>January</div>
+              <div class='달'>1월</div>
+            </td>
+            <td>
+              <img src='wrench.png' class='plan_img' align='left'>
+              <div class='work'>동계 재정비</div>
+              <div class='detail'>1년간의 방송국 운영을 위한 방송국 내 재정비</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>February</div>
+              <div class='달'>2월</div>
+            </td>
+            <td>
+              <img src='wrench.png' class='plan_img' align='left'>
+              <div class='work'>KTN 오픈스튜디오</div>
+              <div class='detail'>새내기들에게 KTN의 모든 것을 소개하는 온/오프라인 행사</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>March</div>
+              <div class='달'>3월</div>
+            </td>
+            <td>
+              <img src='test.png' class='plan_img' align='left'>
+              <div class='work'>홀수기 리크루팅</div>
+              <div class='detail'>홀수기 국원 리크루팅 기간</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>April</div>
+              <div class='달'>4월</div>
+            </td>
+            <td>
+              <img src='open-book.png' class='plan_img' align='left'>
+              <div class='work'>홀수기 수습기간</div>
+              <div class='detail'>1년차 홀수기 국원들의 교육이 진행되는 기간</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>May</div>
+              <div class='달'>5월</div>
+            </td>
+            <td>
+              <img src='test.png' class='plan_img' align='left'>
+              <div class='work'>짝수기 리크루팅</div>
+              <div class='detail'>짝수기 국원 리크루팅 기간</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>June</div>
+              <div class='달'>6월</div>
+            </td>
+            <td>
+              <img src='open-book.png' class='plan_img' align='left'>
+              <div class='work'>짝수기 수습기간</div>
+              <div class='detail'>1년차 짝수기 국원들의 교육이 진행되는 기간</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>July</div>
+              <div class='달'>7월</div>
+            </td>
+            <td>
+              <img src='wrench.png' class='plan_img' align='left'>
+              <div class='work'>하계 재정비</div>
+              <div class='detail'>1년간의 방송국 운영을 위한 방송국 내 재정비</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>August</div>
+              <div class='달'>8월</div>
+            </td>
+            <td>
+              <img src='wrench.png' class='plan_img' align='left'>
+              <div class='work'>수습작품, 영상제 제작</div>
+              <div class='detail'>KTN만의 멋진 작품들이 탄생하는 기간</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>September</div>
+              <div class='달'>9월</div>
+            </td>
+            <td>
+              <img src='clapperboard.png' class='plan_img' align='left'>
+              <div class='work'>KTN 영상제</div>
+              <div class='detail'>KTN 국원들의 다양한 영상 작품을 상영하는 행사</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>October</div>
+              <div class='달'>10월</div>
+            </td>
+            <td>
+              <img src='wrench.png' class='plan_img' align='left'>
+              <div class='work'>이듬해 1학기 국장선거</div>
+              <div class='detail'>한 학기를 이끌어줄 국장을 선출하는 기간</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>November</div>
+              <div class='달'>11월</div>
+            </td>
+            <td>
+              <img src='fireworks.png' class='plan_img' align='left'>
+              <div class='work'>KTN 대잔치</div>
+              <div class='detail'>1년간의 성과를 보고하는 행사</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class='month-back'>
+              <div class='month'>December</div>
+              <div class='달'>12월</div>
+            </td>
+            <td>
+              <img src='wrench.png' class='plan_img' align='left'>
+              <div class='work'>인수인계</div>
+              <div class='detail'>다음 기수에게 KTN의 주요 업무를 인수인계하는 기간</div>
+            </td>
+          </tr>
+        </table>
+      </td></tr>
+      </table>
+    </contents>
+
+    <footer>
+      <div class='container3'>
+        <div class='item3' id='item3-1'><a href='main_page.html'>KTN</a></div>
+        <div class='item3'><a href='https://portal.korea.ac.kr/front/Intro.kpd'>KUPID</a></div>
+        <div class='item3'><a href='http://www.korea.ac.kr/mbshome/mbs/university/index.do'>고려대학교</a></div>
+        <div class='item3' id='item3-4'><a href='http://data.ktn.ac.kr'>자료관리</a></div>
+      </div>
+      <div id='footer_text'>
+      1997-현재, 고려대학교 TV방송국 KTN 모든 소유권 보유.<br>서울특별시 성북구 안암로 145 고려대학교 홍보관 4층 고려대학교 TV방송국 KTN<br>02-3290-1521, 6 / media@korea.ac.kr
+      </div>
+    </footer>
+  </body>
+</html>
